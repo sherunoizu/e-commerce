@@ -1,4 +1,5 @@
 import { signInWithGooglePopup, createUserDocumentFromAuth } from "../../utils";
+import { SignUpForm } from "../../components";
 
 export const SignIn = () => {
   const logGoogleUser = async () => {
@@ -8,6 +9,7 @@ export const SignIn = () => {
   return (
     <div>
       <button onClick={logGoogleUser}>Sign in with Google popup</button>
+      <SignUpForm />
     </div>
   );
 };
