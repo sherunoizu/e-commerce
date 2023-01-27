@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { FormInput } from "../form-input/form-input.component";
 
+import { Button } from "../button/button.component";
+
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
@@ -98,7 +100,9 @@ export const SignUpForm = () => {
           value={confirmPassword}
         />
 
-        <button type="submit">SUBMIT</button>
+        <Button buttonType={"default"} type="submit">
+          SUBMIT
+        </Button>
       </form>
     </div>
   );
