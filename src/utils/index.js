@@ -3,4 +3,6 @@ export {
   createUserDocumentFromAuth,
   createAuthUserWithEmailAndPassword,
   signInAuthUserWithEmailAndPassword,
+  signOutUser,
+  onAuthStateChangedLisntener,
 } from "./firebase/firebase.utils";
