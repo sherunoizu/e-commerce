@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router";
 
-import { Home, Navigation, Authentication } from "./routes";
+import { Home, Navigation, Authentication, Shop } from "./routes";
 
 const App = () => {
   return (
     <Routes>
       <Route path={"/"} element={<Navigation />}>
         <Route index element={<Home />} />
-        <Route path="/shop" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/auth" element={<Authentication />} />
       </Route>
     </Routes>
