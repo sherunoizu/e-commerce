@@ -101,7 +101,7 @@ export const SignUpForm = () => {
         />
 
         <Button buttonType={"default"} type="submit">
-          SUBMIT
+          Sign Up
         </Button>
       </form>
     </div>
