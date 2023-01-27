@@ -9,3 +9,7 @@ export { SignUpForm } from "./sign-up-form/sign-up-form.component";
 export { SignInForm } from "./sign-in-form/sign-in-form.component";
 
 export { ProductCard } from "./product-card/product-card.component";
+
+export { CartIcon } from "./cart-icon/cart-icon.component";
+
+export { CartDropdown } from "./cart-dropdown/cart-dropdown.component";
