@@ -5,4 +5,6 @@ export {
   signInAuthUserWithEmailAndPassword,
   signOutUser,
   onAuthStateChangedLisntener,
+  addCollectionAndDocuments,
+  getCategoriesAndDocuments,
 } from "./firebase/firebase.utils";
