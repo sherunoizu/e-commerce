@@ -13,3 +13,5 @@ export { ProductCard } from "./product-card/product-card.component";
 export { CartIcon } from "./cart-icon/cart-icon.component";
 
 export { CartDropdown } from "./cart-dropdown/cart-dropdown.component";
+
+export { CheckoutItem } from "./checkout-item/checkout-item.component";

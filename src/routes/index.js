@@ -7,3 +7,5 @@ export { Authentication } from "./authentication/authentication.component";
 export { Button } from "../components/button/button.component";
 
 export { Shop } from "./shop/shop.component";
+
+export { Checkout } from "./checkout/checkout.component";
