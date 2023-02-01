@@ -1,6 +1,6 @@
 export { FormInput } from "./form-input/form-input.component";
 
-export { CategoryItem } from "./category-item/category-item.component";
+export { DirectoryItem } from "./directory-item/directory-item.component";
 
 export { Directory } from "./directory/directory.component";
 
@@ -15,3 +15,5 @@ export { CartIcon } from "./cart-icon/cart-icon.component";
 export { CartDropdown } from "./cart-dropdown/cart-dropdown.component";
 
 export { CheckoutItem } from "./checkout-item/checkout-item.component";
+
+export { CategoryPreview } from "./category-preview/category-preview.component";
