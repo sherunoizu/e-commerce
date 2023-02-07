@@ -6,7 +6,7 @@ import { CategoriesPreview } from "../categories-preview/categories-preview.comp
 import { Category } from "../category/category.component";
 
 import { getCategoriesAndDocuments } from "../../utils";
-import { setCategoriesMap } from "../../store/categories/category.action";
+import { setCategories } from "../../store/categories/category.action";
 
 import "./shop.styles.jsx";
 
@@ -15,9 +15,9 @@ export const Shop = () => {
 
   useEffect(() => {
     const getCategoriesMap = async () => {
-      const categoryMap = await getCategoriesAndDocuments("categories");
+      const categoriesArray = await getCategoriesAndDocuments("categories");
 
-      dispatch(setCategoriesMap(categoryMap));
+      dispatch(setCategories(categoriesArray));
     };
 
     getCategoriesMap();
