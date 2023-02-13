@@ -17,3 +17,5 @@ export { CartDropdown } from "./cart-dropdown/cart-dropdown.component";
 export { CheckoutItem } from "./checkout-item/checkout-item.component";
 
 export { CategoryPreview } from "./category-preview/category-preview.component";
+
+export { Spinner } from "./spinner/spinner.component";
