@@ -4,7 +4,7 @@ import { addItemToCart } from "../../store/cart/cart.action";
 
 import { selectCartItems } from "../../store/cart/cart.selector";
 
-import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
+import { Button, BUTTON_TYPE_CLASSES } from "..";
 
 import {
   ProductCardContainer,

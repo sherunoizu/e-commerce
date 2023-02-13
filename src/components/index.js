@@ -19,3 +19,7 @@ export { CheckoutItem } from "./checkout-item/checkout-item.component";
 export { CategoryPreview } from "./category-preview/category-preview.component";
 
 export { Spinner } from "./spinner/spinner.component";
+
+export { Button, BUTTON_TYPE_CLASSES } from "./button/button.component";
+
+export { PaymentForm } from "./payment-form/payment-form.component";
