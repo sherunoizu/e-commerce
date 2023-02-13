@@ -5,7 +5,7 @@ import {
   selectCartTotal,
 } from "../../store/cart/cart.selector";
 
-import { CheckoutItem } from "../../components";
+import { CheckoutItem, PaymentForm } from "../../components";
 
 import {
   CheckoutContainer,
@@ -44,6 +44,7 @@ export const Checkout = () => {
       })}
 
       <Total>Total Price: {cartTotalPrice}</Total>
+      <PaymentForm />
     </CheckoutContainer>
   );
 };
