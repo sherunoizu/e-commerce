@@ -5,11 +5,6 @@ import { FormInput } from "../form-input/form-input.component";
 
 import { Button, BUTTON_TYPE_CLASSES } from "..";
 
-import {
-  createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth,
-} from "../../utils";
-
 import { SignUpContainer } from "./sign-up-form.styles.jsx";
 import { signUpStart } from "../../store/user/user.action";
 
